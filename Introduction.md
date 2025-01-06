@@ -2,12 +2,14 @@
 Deep learning is a subset of machine learning that utilizes multilayered neural networks, known as deep neural networks, to mimic the decision-making capabilities of the human brain. This approach enables computers to process complex data patterns and perform tasks such as classification, regression, and representation learning. Deep learning models are particularly effective with high-dimensional data, allowing them to identify intricate relationships within large datasets.
 
 -> Types of Deep Learning Models:
-~ Feedforward Neural Networks (FNN): Also known as Multi-Layer Perceptrons (MLP), these are the simplest form of neural networks where information flows in one direction—from input to output—without feedback loops. They are commonly used for tasks like image classification and regression problems25.
-~ Convolutional Neural Networks (CNN): Designed for processing structured grid data such as images, CNNs automatically learn spatial hierarchies of features through convolutional layers. They excel in image recognition and computer vision tasks14.
-~ Recurrent Neural Networks (RNN): These networks are ideal for sequential data, such as time series or natural language processing. RNNs maintain a memory of previous inputs through feedback loops, making them suitable for tasks like speech recognition24.
-~ Long Short-Term Memory Networks (LSTM): A specialized type of RNN designed to remember long-term dependencies, LSTMs are effective in applications where context from earlier inputs is crucial, such as language modeling and translation35.
-~ Generative Adversarial Networks (GANs): Comprising two neural networks—a generator and a discriminator—GANs are used for generating new data samples that resemble a given dataset. They are widely applied in image synthesis and style transfer16.
-~ Transformers: These models leverage self-attention mechanisms to process data sequences in parallel, making them highly efficient for tasks like translation and text generation. Transformers have become foundational in natural language processing34.
+
+- Feedforward Neural Networks (FNN): Also known as Multi-Layer Perceptrons (MLP), these are the simplest form of neural networks where information flows in one direction—from input to output—without feedback loops. They are commonly used for tasks like image classification and regression problems25.
+
+- Convolutional Neural Networks (CNN): Designed for processing structured grid data such as images, CNNs automatically learn spatial hierarchies of features through convolutional layers. They excel in image recognition and computer vision tasks14.
+- Recurrent Neural Networks (RNN): These networks are ideal for sequential data, such as time series or natural language processing. RNNs maintain a memory of previous inputs through feedback loops, making them suitable for tasks like speech recognition24.
+- Long Short-Term Memory Networks (LSTM): A specialized type of RNN designed to remember long-term dependencies, LSTMs are effective in applications where context from earlier inputs is crucial, such as language modeling and translation35.
+- Generative Adversarial Networks (GANs): Comprising two neural networks—a generator and a discriminator—GANs are used for generating new data samples that resemble a given dataset. They are widely applied in image synthesis and style transfer16.
+- Transformers: These models leverage self-attention mechanisms to process data sequences in parallel, making them highly efficient for tasks like translation and text generation. Transformers have become foundational in natural language processing34.
 
 -> Key Concepts in Deep Learning:
 
