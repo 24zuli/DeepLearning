@@ -103,7 +103,32 @@ We can break this down into component functions and represent it using an MLP st
       - Both results are then combined using function 
 $$f_1=add()$$ to produce the final output $$y=2sin(x^2)+\sqrt(5x)$$.
 
-  
+
+-> It prones to Overfitting and Underfitting but how?
+- Overfitting:
+  Overfitting occurs when an MLP learns the training data too well, including its noise and outliers, leading to poor generalization on unseen data. This happens due to several factors:
+   - High Model Complexity
+   - Insufficient Training Data
+   - Long Training Periods
+   - Noisy Data
+   - Error = Bias<sup>2</sup> +Variance + Irreducible Error
+ 
+- Underfitting:
+  Underfitting occurs when an MLP is too simplistic to capture the underlying patterns in the data. This leads to poor performance on both training and unseen data.
+   - Too Simple Model
+   - Insufficient Features
+   - Excessive Regularization
+   - Low Variance
+   - Error = Bias<sup>2</sup> + Variance + Irreducible Error
+ 
+- Balancing Overfitting and Underfitting:
+    - Regularization Techniques
+    - Cross-Validation
+    - Early Stopping
+    - Data Augmentation
+    - Feature Engineering
+
+     
 
 
 
