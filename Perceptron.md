@@ -94,7 +94,7 @@ We can break this down into component functions and represent it using an MLP st
 - $$f4 = sin()$$: Computes sine.
 - $$f5 = mul()$$:  Multiplies two values.
 
-<img src = "https://github.com/user-attachments/assets/f557f9b7-79c2-40c0-987c-412bb20b0c0a" width = "250" />
+ <img src = "https://github.com/user-attachments/assets/f557f9b7-79c2-40c0-987c-412bb20b0c0a" width = "350" />
 
 -> Explanation of Diagram: 
    - The input x flows into two branches:
