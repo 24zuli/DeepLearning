@@ -78,7 +78,7 @@ A Multi-Layer Perceptron (MLP) is a type of artificial neural network that consi
    y = g(z<sub>o</sub>)
    
    where:
-   -g is typically a softmax or sigmoid function depending on whether it's a multi-class or binary classification task.
+   - g is typically a softmax or sigmoid function depending on whether it's a multi-class or binary classification task.
 
 
 
