@@ -13,39 +13,40 @@ Deep learning is a subset of machine learning that utilizes multilayered neural 
 
 -> Key Concepts in Deep Learning:
 
-- High-Dimensional Data:
-Deep learning algorithms excel at handling high-dimensional data, allowing them to uncover patterns that simpler models might miss.
+1) High-Dimensional Data:
+-> Deep learning algorithms excel at handling high-dimensional data, allowing them to uncover patterns that simpler models might miss.
 
-- Training Process:
-~ Epochs: The number of complete passes through the training dataset.
-~ Forward Pass: The process where input data is fed through the network to produce an output.
-~ Backpropagation: A method used to update weights and biases by calculating gradients of the loss function with respect to each weight by the chain rule.
+2) Training Process:
+- Epochs: The number of complete passes through the training dataset.
+- Forward Pass: The process where input data is fed through the network to produce an output.
+- Backpropagation: A method used to update weights and biases by calculating gradients of the loss function with respect to each weight by the chain rule.
 
-- Loss Function Calculation:
-The loss function quantifies how well the model's predictions match the actual outcomes. Common loss functions include:
-~ Sparse Categorical Crossentropy: Used for multiclass classification problems.
-~ Binary Crossentropy: Used for binary classification tasks.
+3) Loss Function Calculation:
+->  The loss function quantifies how well the model's predictions match the actual outcomes. Common loss functions include:
+  - Sparse Categorical Crossentropy: Used for multiclass classification problems.
+  - Binary Crossentropy: Used for binary classification tasks.
 
-- Weights and Biases:
-Initially, weights and biases are randomly initialized. As training progresses through multiple iterations (epochs), adjustments based on backpropagation improve model performance.
+4) Weights and Biases:
+->  Initially, weights and biases are randomly initialized. As training progresses through multiple iterations (epochs), adjustments based on backpropagation improve model performance.
 
-- Tensors:
-Tensors are multi-dimensional arrays that serve as the fundamental data structure in deep learning frameworks like TensorFlow. They can represent various types of data:
-Rank 0: Scalar
-Rank 1: Vector
-Rank 2: Matrix
-Higher ranks can represent more complex structures like batches of images or sequences.
+5) Tensors:
+->  Tensors are multi-dimensional arrays that serve as the fundamental data structure in deep learning frameworks like TensorFlow. They can represent various types of data:
 
-- Batch Processing:
-Data is often processed in batches to optimize training efficiency:
-~ Batch Size: The number of samples processed before the model's internal parameters are updated.
+- Rank 0: Scalar
+- Rank 1: Vector
+- Rank 2: Matrix
+- Higher ranks can represent more complex structures like batches of images or sequences.
+
+6) Batch Processing:
+->  Data is often processed in batches to optimize training efficiency:
+- Batch Size: The number of samples processed before the model's internal parameters are updated.
 For example, an image dataset might be represented with dimensions [128, 28, 28, 3], indicating a batch of 128 images with dimensions 28x28 pixels and 3 color channels (RGB).
 
-- Optimizers:
-Optimizers adjust the weights during training to minimize the loss function. Common optimizers include:
-~ Stochastic Gradient Descent (SGD)
-~ Adam
-~ RMSprop
+7) Optimizers:
+->  Optimizers adjust the weights during training to minimize the loss function. Common optimizers include:
+-  Stochastic Gradient Descent (SGD)
+-  Adam
+-  RMSprop
 
-- Callbacks:
-Callbacks allow users to monitor training progress and implement custom actions based on model performance metrics, such as stopping training if accuracy does not exceed a certain threshold.
+8) Callbacks:
+- Callbacks allow users to monitor training progress and implement custom actions based on model performance metrics, such as stopping training if accuracy does not exceed a certain threshold.
