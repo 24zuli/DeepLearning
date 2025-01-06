@@ -101,7 +101,7 @@ We can break this down into component functions and represent it using an MLP st
       - The first branch computes $x^2$, which then goes to the sine function $f_4=sin()$. The result is multiplied by 2 using function $f_5=mul()$.
       - The second branch computes $5x$ which then goes to the square root function $f_2=\sqrt()$.
       - Both results are then combined using function 
-$$f_1=add()$$ to produce the final output $$y=2sin(x^2)+\sqrt5x$$.
+$$f_1=add()$$ to produce the final output $$y=2sin(x^2)+\sqrt(5x)$$.
 
   
 
