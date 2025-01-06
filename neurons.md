@@ -2,12 +2,12 @@
    
 -> Neurons in deep learning are fundamental units that process information, similar to biological neurons in the human brain. They are organized into layers within a neural network, where each neuron receives inputs, performs computations, and sends outputs to subsequent layers.
 
-3. Structure and Functionality of Neurons: 
+2. Structure and Functionality of Neurons: 
 - Input Signals: Neurons receive one or more input signals from either the raw data or from other neurons in previous layers.
 - Weights and Biases: Each input is associated with a weight, which signifies its importance. Additionally, a bias term is added to the weighted sum to adjust the output independently of the inputs.
 - Activation Function: The weighted sum of inputs plus the bias is passed through an activation function, which determines whether the neuron should be activated (i.e., produce an output) based on the computed value.
 
-4. Mathematical Representation:-
+3. Mathematical Representation:-
 
    - The output y of a neuron can be mathematically represented as:
      
