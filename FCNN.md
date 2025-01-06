@@ -1,3 +1,5 @@
+# Fully Connected Neural Networks:
+
 A Fully Connected Neural Network (FCNN) is a type of artificial neural network where each neuron in one layer is connected to every neuron in the next layer. This architecture allows the network to learn complex relationships in data through multiple layers of transformation.
 
 - Input Layer: The layer that receives input data.
