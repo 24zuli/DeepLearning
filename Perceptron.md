@@ -81,4 +81,8 @@ A Multi-Layer Perceptron (MLP) is a type of artificial neural network that consi
    - g is typically a softmax or sigmoid function depending on whether it's a multi-class or binary classification task.
 
 
+## Example:
+
+$$f(x) = 2sin(x^2) + sqrt(5x)$$
+
 
