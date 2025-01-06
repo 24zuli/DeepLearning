@@ -83,6 +83,30 @@ A Multi-Layer Perceptron (MLP) is a type of artificial neural network that consi
 
 ## Example:
 
-$$f(x) = 2sin(x^2) + sqrt(5x)$$
+$$f(x) = 2sin(x^2) + \sqrt{5x}$$
+
+We can break this down into component functions and represent it using an MLP structure:
+
+-> Functions Defined:
+- $$f1 = add()$$: Adds two values.
+- $$f2 = \sqrt()$$: Computes square root.
+- $$f3 =\sqrt()$$: Computes square root (for another term).
+- $$f4 = sin()$$: Computes sine.
+- $$f5 = mul()$$:  Multiplies two values.
+
+<img src = "https://github.com/user-attachments/assets/f557f9b7-79c2-40c0-987c-412bb20b0c0a" width = "250" />
+
+-> Explanation of Diagram: 
+   - The input x flows into two branches:
+      - The first branch computes $x^2$, which then goes to the sine function $f_4=sin()$. The result is multiplied by 2 using function $f_5=mul()$.
+      - The second branch computes $5x$ which then goes to the square root function $f_2=\sqrt()$.
+      - Both results are then combined using function 
+$$f_1=add()$$ to produce the final output $$y=2sin(x^2)+\sqrt5x$$.
+
+  
+
+
+
+
 
 
